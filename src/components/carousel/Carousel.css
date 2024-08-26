@@ -1,0 +1,35 @@
+.carouselImage {
+    height: 415px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.arrowBack {
+    position: absolute;
+    left: 20px;
+}
+
+.arrowNext {
+    position: absolute;
+    right: 20px;
+}
+
+.counter {
+    position: absolute;
+    bottom: 20px;
+    color: white;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+@media all and (max-width: 768px) {
+    .counter {
+        display: none;
+    }
+}

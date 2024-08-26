@@ -1,0 +1,83 @@
+.logementDescription {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logementHost {
+    display: flex;
+    align-items: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    color: #FF6060;
+
+}
+
+.logementTitle {
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 500;
+    color: #FF6060;
+}
+
+.logementCollapseContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logementCollapse {
+    width: 49%;
+}
+
+.hostImage {
+    width: 64px;
+    height: 64px;
+    border-radius: 60px;
+    margin-left: 15px;
+}
+
+.tagList {
+    display: flex;
+    margin-bottom: 30px;
+
+}
+
+.tagItem {
+    color: white;
+    width: 115px;
+    height: 25px;
+    border-radius: 10px;
+    background: #FF6060;
+    text-align: center;
+    margin-right: 10px;
+
+}
+
+@media all and (max-width: 768px) {
+    .logementDescription {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logementHostContainer {
+        display: flex;
+        /*flex-direction: column-reverse;*/
+
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .logementCollapseContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logementCollapse {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+}

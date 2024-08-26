@@ -1,0 +1,44 @@
+.collapse_title {
+    padding: 10px;
+    background-color: #FF6060;
+    color: white;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.collapse_title h2 {
+    padding: 0px;
+    margin: 0px;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+.chevronUp {
+    transform: rotate(0);
+    transition: 0.5s;
+
+}
+
+.chevronDown {
+    transform: rotate(-180deg);
+    transition: 0.5s;
+
+}
+
+.collapse_title i {
+    font-size: 30px;
+}
+
+.collapse_content {
+    background-color: lightgray;
+    padding: 15px;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+}
