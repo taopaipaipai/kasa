@@ -8,8 +8,8 @@ const Header = () => {
       <div className="header">
         <img src={require("../../images/LOGO.png")} alt="Kasa" />
         <nav>
-          <Link to="/">accueil</Link>
-          <Link to="/about">A propos</Link>
+          <Link to="/kasa">accueil</Link>
+          <Link to="/kasa/about">A propos</Link>
         </nav>
       </div>
     </header>

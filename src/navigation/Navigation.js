@@ -13,10 +13,10 @@ const Navigation = () => {
       <Header />
       <main>
         <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route exact path="/about" element={<About />} />
-          <Route exact path="/logement/:id" element={<Logement />} />
-          <Route exact path="/error-404" element={<Error404 />} />
+          <Route exact path="/kasa" element={<Home />} />
+          <Route exact path="/kasa/about" element={<About />} />
+          <Route exact path="/kasa/logement/:id" element={<Logement />} />
+          <Route exact path="/kasa/error-404" element={<Error404 />} />
           <Route
             exact
             path="/*"
