@@ -20,7 +20,7 @@ const Navigation = () => {
           <Route
             exact
             path="/*"
-            element={<Navigate replace to="/error-404" />}
+            element={<Navigate replace to="/kasa/error-404" />}
           />
         </Routes>
       </main>
